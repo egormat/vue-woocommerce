@@ -14,9 +14,6 @@
       </router-link>
     </div>
 
-    <!-- <div class="">
-        {{product.short_description.substr(3).slice(0, -5)}}
-    </div> -->
     <div class="product__actions">
       <div class="price">{{product.price}} руб.</div>
       <button @click="addToCart(product)" class="addToCartButton">В корзину</button>
